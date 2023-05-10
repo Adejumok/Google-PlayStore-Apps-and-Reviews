@@ -4,6 +4,7 @@ This project did a comprehensive analysis of the Android app market by comparing
 ## Introduction
 
 In this project, we analyze data using Python to gain insights and answer questions. They include:
+- Which category has the highest share of (active) apps in the market?
 - How do all these apps perform on an average?
 - Does the size of an app affect its rating?
 - Do users really care about system-heavy apps or do they prefer light-weighted apps?
@@ -30,6 +31,7 @@ We start by exploring the data and understanding its structure. We then use vari
 We present our findings in this section using various visualizations such as graphs, charts, and tables. We also provide insights and interpretations of the data and answer the questions we set out to explore in the introduction.
 
 ## Conclusion
+- We will see that there are 33 unique app categories present in our dataset. Family and Game apps have the highest market prevalence. Interestingly, Tools, Business and Medical apps are also at the top.
 - From our research, we found that the average volume of ratings across all app categories is 4.17.
 - We find that the majority of top rated apps (rating over 4) range from 2 MB to 20 MB. 
 - We also find that the vast majority of apps price themselves under $10.
