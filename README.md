@@ -4,7 +4,9 @@ This project did a comprehensive analysis of the Android app market by comparing
 ## Introduction
 
 In this project, we analyze data using Python to gain insights and answer questions. They include:
-- 
+- Does the size of an app affect its rating?
+- Do users really care about system-heavy apps or do they prefer light-weighted apps?
+- Does the price of an app affect its rating?
 - Are paid apps installed as much as free apps?
 - How do people feel about the Google Play Store product, brand, or service? This can be done using a technique called sentiment analysis.
 We use Jupyter Notebook to write our code and present our findings.
@@ -27,6 +29,8 @@ We start by exploring the data and understanding its structure. We then use vari
 We present our findings in this section using various visualizations such as graphs, charts, and tables. We also provide insights and interpretations of the data and answer the questions we set out to explore in the introduction.
 
 ## Conclusion
+- We find that the majority of top rated apps (rating over 4) range from 2 MB to 20 MB. 
+- We also find that the vast majority of apps price themselves under $10.
 - It turns out that paid apps have a relatively lower number of installs than free apps, though the difference is not as stark as would have been expected.
 - By plotting sentiment polarity scores of user reviews for paid and free apps, we observe that free apps receive a lot of harsh comments, as indicated by the outliers on the negative y-axis. Reviews for paid apps appear never to be extremely negative. This may indicate something about app quality, i.e., paid apps being of higher quality than free apps on average. The median polarity score for paid apps is a little higher than free apps, thereby syncing with our previous observation.
 
