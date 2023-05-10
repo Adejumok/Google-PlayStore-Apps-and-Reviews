@@ -3,11 +3,11 @@ This project did a comprehensive analysis of the Android app market by comparing
 
 ## Introduction
 
-In this project, we analyze data using Python to gain insights and answer questions. We use Jupyter Notebook to write our code and present our findings.
+In this project, we analyze data using Python to gain insights and answer questions. We determine how people feel about the Google Play Store product, brand, or service, and can be done using a technique called sentiment analysis.We use Jupyter Notebook to write our code and present our findings.
 
 ## Data
 
-The data used in this project is a CSV file containing Netflix data. We import the data into our notebook and clean it as needed.
+The data used in this project is a CSV file containing data from Google Play Store applications and reviews. We import the data into our notebook and clean it as needed.
 
 ## Analysis
 
@@ -33,11 +33,12 @@ This project requires the following Python libraries:
 - Pandas
 - Numpy
 - Matplotlib
+- Seaborn
 
 To install these libraries, run the following command:
 
 ```
-!pip install pandas numpy matplotlib
+!pip install pandas numpy matplotlib seaborn
 ```
 
 ## Usage
